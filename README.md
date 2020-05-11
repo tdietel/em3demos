@@ -14,6 +14,19 @@ pull request if you have something worth sharing.
 These instructions are minimal: clone the git repository and start [Jupyter
 Notebook] in your working directory.
 
+To clone the repository and install the needed packages, open a terminal in the directory and use:
+```
+git clone https://github.com/tdietel/em3demos.git
+cd em3demos
+pip install -r requirements.txt
+```
+
+If you don't have Jupyter notebook installed, use the following to install and launch a notebook session:
+```
+pip install notebook
+jupyter notebook
+```
+
 You can also launch the notebooks directly on the [MyBinder] service: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tdietel/em3demos/master)
 
 [Jupyter Notebook]: https://jupyter.org/
